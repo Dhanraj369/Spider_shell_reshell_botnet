@@ -58,5 +58,5 @@ async def on_message(message):
             raise
 
 
-client.run("MTAzODM5NzgwNjU4MDMzNDYzMg.GBAktK.35KW6fTtoV-CLx5qXvlmJh4hPB9ndtFSiFJ1BQ")
+client.run("_your_bot_tocken")
 #replace run(your_bot_token which you added in your discord server)
