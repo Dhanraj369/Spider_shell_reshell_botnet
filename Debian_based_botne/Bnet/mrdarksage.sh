@@ -51,5 +51,6 @@ while ! ping -c 1 -W 1 8.8.8.8 > /dev/null 2>&1; do
         fi
     
         sleep 5  
+    done
     
 done
