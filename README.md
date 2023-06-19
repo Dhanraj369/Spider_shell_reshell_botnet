@@ -1,5 +1,8 @@
 # Spider_shell_reshell_botnet
 This tool is use for red teeming  and its use in botnet attack on a system it give you reverse shell of your target system and communicate through discord API . this file can be run on many different machin and give you there all control you can give command once to all botnet or  give command to specific one botnet get rce from cli or discord 
+<h2> importent note : this tool botnet cant't be deleted easly  unless your target reset os even he find out botnet file and delet everything I must say this botnet qulified for regain system control just after reboot [it have two lives] if any skilled user figer out to kill first live it have second one ;) </h2>
+
+<h1>Easy way to delet this botnet is know about this repo :) </h1>
 
 [ hold on i am working for windos os to and mac ]
 
@@ -17,4 +20,17 @@ You get this in mid of running script
 
  YOU CAN UE ANY COMMAND YOU KNOW ABOUT EX .ls ,pwd ,cd or any bash envorment supporting commands
 
- Here are best thing about this tool 
+ <h1>Here are best thing about this tool </h1>
+ <p>1. you can run this script to any number of system more then 10k or ++ you will gget all the system acess from your discord        derver
+  
+ 2. you can run a command to all system at onse and you can run specific commands on perticular system you get message when system connected to internet ( use command : #help for more info)
+
+3. this will work like bots which excute any command to there host pre-define commands are (  #show targets , #execute host commands , #notes )
+4. for running any command just send the command as message to discord server where you added a bot and provide bot token ex. send message 'ls' it list all the file and folder to all the system you use this tool
+5.  for give a perticular command to particular system enter > #show targets
+and select target and enter as message to discord sever >> ls #host-name display from #show targets  command
+
+5 . it's very easy to use  just take 'install.sh' file to any system  and run thats it you get connection over WAN 
+and do add discord bot tocken and channel id that's it ;)
+
+ </p> 
