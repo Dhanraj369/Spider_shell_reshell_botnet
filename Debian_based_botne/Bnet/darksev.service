@@ -1,0 +1,16 @@
+[Unit]
+Description=My Script Service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStartPre=/var/run/Bnet/resolve_ping.sh
+ExecStart=/var/run/Bnet/darkserv.sh
+ExecStartPost=/var/run/Bnet/post-check.sh
+WorkingDirectory=/home
+Restart=always
+RestartSec=3
+User=root
+
+[Install]
+WantedBy=default.target
