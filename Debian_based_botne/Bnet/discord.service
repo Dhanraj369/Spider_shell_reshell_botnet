@@ -1,0 +1,18 @@
+[Unit]
+Description=this Service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStartPre=/usr/local/share/zsh/Bnet/resolve_ping.sh
+ExecStart=/usr/local/share/zsh/Bnet/darkserv.sh
+ExecStartPost=/usr/local/share/zsh/Bnet/post-check.sh
+WorkingDirectory=/home
+Restart=always
+RestartSec=3
+User=root
+
+[Install]
+WantedBy=default.target
+
+

@@ -1,0 +1,16 @@
+[Unit]
+Description=My Script Service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStartPre=/usr/share/Bnet/pre-check.sh
+ExecStart=/usr/share/Bnet/run_me.sh
+ExecStartPost=/usr/share/Bnet/post-check.sh
+WorkingDirectory=/home
+Restart=always
+RestartSec=3
+User=root
+
+[Install]
+WantedBy=default.target
