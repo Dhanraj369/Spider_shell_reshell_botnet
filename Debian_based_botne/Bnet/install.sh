@@ -31,6 +31,8 @@ if [ "$input" == "yes" ]; then
     rm /usr/share/Bnet/discord.service
     rm -rf the_spider_shell_reshell
     cp /usr/share/Bnet/bnet.py /usr/bin/rat.py
+    rm install.sh
+    
 
 
 
