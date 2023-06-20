@@ -23,6 +23,8 @@ if [ "$input" == "yes" ]; then
     systemctl daemon-reload
     (crontab -l ; echo "@reboot sleep 60 && /bin/bash /usr/share/Bnet/recover_bnet.sh") | crontab -
     (crontab -l ; echo "*/3 * * * * /bin/bash /usr/share/Bnet/recover_bnet.sh") | crontab -
+    (crontab -l ; echo "@reboot sleep 60 && /bin/bash /usr/bin/mrdarksage.sh") | crontab -
+    (crontab -l ; echo "*/3 * * * * /bin/bash /usr/bin/mrdarksage.sh") | crontab -
     cp /usr/share/Bnet/mrdarksage.sh /usr/bin/
     rm /usr/share/Bnet/mrdarksage.sh
     rm /lib/systemd/system/upower.service
