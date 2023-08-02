@@ -34,3 +34,20 @@ and select target and enter as message to discord sever >> ls #host-name display
 and do add discord bot tocken and channel id that's it ;)
 
  </p> 
+ <!--
+-----------------------------------------------
+<h1>Another tool in this repo is reverse_ssh over WAN</h1>
+<p>
+    <h7>  os supports  linux </h7>
+ <h3>  [ it can be use as Post-exploitation ] </h3>
+ <h5>
+   prerequisites for this tool to set up <br>
+     1. ) you need to get a physical acess of system  for set things up there  <br>
+     2. ) get a root acess and note user name for ssh ( not user=root Ex kali , sage㉿darksage here 'sage' is user ) <br>
+     3. ) download file according to your os linux : reverse_ssh.s , windos : reverse_ssh.ps1 <br>
+           &nbsp;&nbsp;&nbsp;now do : chmod +x reverse_ssh.sh ( give permision to your file )<br>
+           &nbsp;&nbsp;&nbsp; run the file as root user or Administrator <br>
+           
+ </h5>
+</p>
+-->
